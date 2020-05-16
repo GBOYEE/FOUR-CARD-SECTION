@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+body {
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 95%);
+}
+
+
+.heading {
+  width: 88%;
+  margin: 0 auto;
+  padding: 2.5em 0;
+  text-align: center;
+  font-weight: 600;
+  max-width: 500px;
+}
+
+.heading h1 {
+  font-size: 1.7rem;
+  margin: 0 auto;
+}
+
+.heading p {
+  opacity: 0.4;
+}
+
+.light-font {
+  font-weight: 400;
+  opacity: 0.4;
+}
+.dark-font {
+  opacity: 0.7;
+  padding-bottom: 0.3em;
+}
+
+.container-main-features {
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.features {
+  width: 90%;
+  max-width: 295.41px;
+  background-color: white;
+  margin: 1.5em auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* Color for features borders */
+.cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+.red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+/* end of colors for feature borders */
+
+.features h2 {
+  padding: 2em 0 0 1em;
+  opacity: 0.7;
+}
+
+.features p {
+  padding: 0.5em 1em 5em 1em;
+  font-size: 0.8rem;
+  opacity: 0.4;
+}
+
+.features img {
+  margin-left: 12em;
+  padding-bottom: 2em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+/* Media Queries */
+@media only screen and (min-width: 960px) {
+  .container-main-features {
+    display: flex;
+    margin:0 auto;
+    padding: 0%;
+justify-content: center;
+    
+    
+  }
+  .cyan,  .blue{
+    width: 30%;
+    height: 259px;
+    margin: auto 1em;
+  }
+  
+  .red, .orange{
+      width:295.41px;
+      
+  }
+}
